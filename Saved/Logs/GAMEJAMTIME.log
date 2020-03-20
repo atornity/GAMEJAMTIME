@@ -712,3 +712,71 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.03.20-21.31.10:038][142]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2020.03.20-21.31.10:046][142]SourceControl: Commited [Enemy 6e97b3b] added basic enemy behaviour (super basic).
 [2020.03.20-21.32.37:666][452]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.03.20-22.16.54:446][862]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Users\gones\OneDrive\3D Objects\Blender\Projects\GAMEJAMTIME\ExportedFbx\SkeletalMesh\PlayerMan\SK_PlayerMan.fbx)
+[2020.03.20-22.16.54:585][862]LogFbx: Loading FBX Scene from D:\Users\gones\OneDrive\3D Objects\Blender\Projects\GAMEJAMTIME\ExportedFbx\SkeletalMesh\PlayerMan\SK_PlayerMan.fbx
+[2020.03.20-22.16.54:612][862]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.20-22.16.57:721][862]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.03.20-22.16.57:824][862]LogFbx: Valid bind pose for Pose (Cube.001) - Cube
+[2020.03.20-22.16.57:830][862]LogFbx: Triangulating skeletal mesh Cube
+[2020.03.20-22.16.57:907][862]LogFbx: Warning: Bones digested - 23  Depth of hierarchy - 8
+[2020.03.20-22.16.57:934][862]LogLODUtilities: Warning: Warning skeletal mesh influence count of 9 exceeds max count of 8. Influence truncation will occur. Maximum Ignored Weight 0.000000
+[2020.03.20-22.16.58:106][862]LogSkeletalMesh: Section 0: 2400 vertices, 18 active bones
+[2020.03.20-22.16.58:107][862]LogSkeletalMesh: Section 0: Material=0, 800 triangles
+[2020.03.20-22.16.58:240][862]LogSkeletalMesh: Building Skeletal Mesh SK_PlayerMan...
+[2020.03.20-22.16.58:249][862]LogSkeletalMesh: Section 0: 2400 vertices, 18 active bones
+[2020.03.20-22.16.58:250][862]LogSkeletalMesh: Section 0: Material=0, 800 triangles
+[2020.03.20-22.16.58:255][862]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Meshes/SK_PlayerMan.SK_PlayerMan
+[2020.03.20-22.16.58:260][862]LogLinker: Failed to load '/Game/Meshes/SK_PlayerMan_Skeleton': Can't find file.
+[2020.03.20-22.16.58:261][862]LogLinker: Failed to load '/Game/Meshes/SK_PlayerMan_Skeleton': Can't find file.
+[2020.03.20-22.16.58:272][862]LogLinker: Failed to load '/Game/Meshes/SK_PlayerMan_PhysicsAsset': Can't find file.
+[2020.03.20-22.16.58:273][862]LogLinker: Failed to load '/Game/Meshes/SK_PlayerMan_PhysicsAsset': Can't find file.
+[2020.03.20-22.16.58:281][862]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_4:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2020.03.20-22.16.58:281][862]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-22.16.58:281][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-22.16.58:307][862]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-22.16.58:307][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-22.17.00:527][ 27]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Meshes/SK_PlayerMan.SK_PlayerMan
+[2020.03.20-22.17.00:728][ 27]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.03.20-22.17.01:503][ 27]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.03.20-22.17.01:575][ 27]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.03.20-22.17.01:796][ 27]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.03.20-22.17.02:846][ 28]LogRenderer: Reallocating scene render targets to support 1100x884 Format 10 NumSamples 1 (Frame:1).
+[2020.03.20-22.17.33:379][781]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2020.03.20-22.17.33:382][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/GAMEJAMTIME_level' took 0.182
+[2020.03.20-22.17.33:384][781]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/SK_PlayerMan] ([1] browsable assets)...
+[2020.03.20-22.17.33:395][781]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Meshes/SK_PlayerMan.SK_PlayerMan]
+[2020.03.20-22.17.33:395][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/SK_PlayerMan]
+[2020.03.20-22.17.33:395][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SK_PlayerMan" FILE="../../../../../../Git/GAMEJAMTIME/Saved/Autosaves/Game/Meshes/SK_PlayerMan_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.03.20-22.17.33:488][781]LogSavePackage: Moving '../../../../../../Git/GAMEJAMTIME/Saved/SK_PlayerMan_Auto17C70F28242A0F2FF04A77588CC2D1667.tmp' to '../../../../../../Git/GAMEJAMTIME/Saved/Autosaves/Game/Meshes/SK_PlayerMan_Auto1.uasset'
+[2020.03.20-22.17.33:489][781]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Meshes/SK_PlayerMan_Skeleton] ([1] browsable assets)...
+[2020.03.20-22.17.33:489][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/SK_PlayerMan_Skeleton]
+[2020.03.20-22.17.33:489][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/SK_PlayerMan_Skeleton" FILE="../../../../../../Git/GAMEJAMTIME/Saved/Autosaves/Game/Meshes/SK_PlayerMan_Skeleton_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.03.20-22.17.33:500][781]LogSavePackage: Moving '../../../../../../Git/GAMEJAMTIME/Saved/SK_PlayerMan_Skeleton_Auto19E424DC24BB961C9B517DEAFB4EA5DAA.tmp' to '../../../../../../Git/GAMEJAMTIME/Saved/Autosaves/Game/Meshes/SK_PlayerMan_Skeleton_Auto1.uasset'
+[2020.03.20-22.17.33:501][781]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/SK_PlayerMan_PhysicsAsset] ([1] browsable assets)...
+[2020.03.20-22.17.33:512][781]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Meshes/SK_PlayerMan_PhysicsAsset.SK_PlayerMan_PhysicsAsset]
+[2020.03.20-22.17.33:513][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/SK_PlayerMan_PhysicsAsset]
+[2020.03.20-22.17.33:533][781]LogSavePackage: Moving '../../../../../../Git/GAMEJAMTIME/Saved/SK_PlayerMan_PhysicsAsset_Auto1FCE272F3478252D05C723EB203E9E315.tmp' to '../../../../../../Git/GAMEJAMTIME/Saved/Autosaves/Game/Meshes/SK_PlayerMan_PhysicsAsset_Auto1.uasset'
+[2020.03.20-22.17.33:534][781]LogFileHelpers: Auto-saving content packages took 0.151
+[2020.03.20-22.19.03:137][229]LogEditorFactories: Performing atomic reimport of [D:/Users/gones/OneDrive/3D Objects/Blender/Projects/GAMEJAMTIME/ExportedFbx/SkeletalMesh/PlayerMan/SK_PlayerMan.fbx]
+[2020.03.20-22.19.03:185][229]LogFbx: Loading FBX Scene from D:/Users/gones/OneDrive/3D Objects/Blender/Projects/GAMEJAMTIME/ExportedFbx/SkeletalMesh/PlayerMan/SK_PlayerMan.fbx
+[2020.03.20-22.19.03:196][229]LogFbx: FBX Scene Loaded Succesfully
+[2020.03.20-22.19.03:215][229]LogFbx: Valid bind pose for Pose (Cube.001) - Cube
+[2020.03.20-22.19.03:216][229]LogFbx: Triangulating skeletal mesh Cube
+[2020.03.20-22.19.03:280][229]LogFbx: Warning: Bones digested - 23  Depth of hierarchy - 8
+[2020.03.20-22.19.03:280][229]LogLODUtilities: Warning: Warning skeletal mesh influence count of 9 exceeds max count of 8. Influence truncation will occur. Maximum Ignored Weight 0.000000
+[2020.03.20-22.19.03:292][229]LogSkeletalMesh: Section 0: 2400 vertices, 18 active bones
+[2020.03.20-22.19.03:293][229]LogSkeletalMesh: Section 0: Material=0, 800 triangles
+[2020.03.20-22.19.03:301][229]LogEditorFactories: -- imported successfully
+[2020.03.20-22.19.03:303][229]LogSkeletalMesh: Building Skeletal Mesh SK_PlayerMan...
+[2020.03.20-22.19.03:339][229]LogSkeletalMesh: Section 0: 2400 vertices, 18 active bones
+[2020.03.20-22.19.03:340][229]LogSkeletalMesh: Section 0: Material=0, 800 triangles
+[2020.03.20-22.19.03:351][229]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/Meshes/SK_PlayerMan.SK_PlayerMan
+[2020.03.20-22.20.18:960][310]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.03.20-22.20.20:624][310]LogSlate: Window 'Delete Assets' being destroyed
+[2020.03.20-22.20.23:701][310]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.03.20-22.20.23:701][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.20-22.20.23:787][310]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Meshes/SK_PlayerMan_Skeleton.SK_PlayerMan_Skeleton
+	Asset Name: /Game/Meshes/SK_PlayerMan.SK_PlayerMan
+	Asset Name: /Game/Meshes/SK_PlayerMan_PhysicsAsset.SK_PlayerMan_PhysicsAsset
+[2020.03.20-22.20.25:941][310]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
